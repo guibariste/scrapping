@@ -4,21 +4,21 @@
 Avant de pouvoir exécuter ce projet, vous devez installer Python 3 sur votre système. Suivez les instructions ci-dessous pour installer Python 3 et configurer l'environnement virtuel.
 
 ## **Installation de Python 3**
-#Linux :
+**Linux :**
 
 sudo apt-get update
 sudo apt-get install python3 python3-venv python3-pip
 
 
-MacOs:
+**MacOs:**
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-Une fois brew installe on installe python 3:
+**Une fois brew installe on installe python 3:**
 
 brew install python3
 
-Windows
+**Windows**
 Téléchargez l'installateur Python 3 depuis le site officiel : python.org
 Lors de l'installation, assurez-vous de cocher l'option "Add Python to PATH".
 Excecutez le fichier d'installation.
@@ -27,7 +27,7 @@ Excecutez le fichier d'installation.
 ## **Création et activation de l'environnement virtuel**
 Il est recommandé d'utiliser un environnement virtuel pour isoler les dépendances de votre projet.
 
-Linux et macOS
+**Linux et macOS:**
 Créez un environnement virtuel :
 
 python3 -m venv env
@@ -36,19 +36,19 @@ python3 -m venv env
 
 source env/bin/activate
 
-Windows
+**Windows**
 Créez un environnement virtuel :
 
 python -m venv env
 
-Activez l'environnement virtuel :
+**Activez l'environnement virtuel :**
 
 .\env\Scripts\activate
 
 
 
 ## **Installation des dépendances**
-Une fois l'environnement virtuel activé, vous pouvez installer les dépendances nécessaires
+Une fois l'environnement virtuel activé, vous pouvez installer les dépendances nécessaires:
 
 pip install requests bs4 pandas
 
