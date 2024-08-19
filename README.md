@@ -3,7 +3,7 @@
 Prérequis
 Avant de pouvoir exécuter ce projet, vous devez installer Python 3 sur votre système. Suivez les instructions ci-dessous pour installer Python 3 et configurer l'environnement virtuel.
 
-Installation de Python 3
+## **Installation de Python 3**
 Linux :
 
 sudo apt-get update
