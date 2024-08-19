@@ -6,6 +6,7 @@ Avant de pouvoir exécuter ce projet, vous devez installer Python 3 sur votre sy
 ## **Installation de Python 3**
 **Linux :**
 
+```bash
 sudo apt-get update
 sudo apt-get install python3 python3-venv python3-pip
 
